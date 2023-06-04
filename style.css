@@ -1,0 +1,72 @@
+.body{font-family: 'Poppins', sans-serif;}
+.headSideImage{ height: 240px; width:240px;}
+.headFontStyle{  font-family: 'Dancing Script', cursive;   animation: headText 3s infinite linear forwards alternate; }
+@keyframes headText {
+    0%{
+transform: translateY(-20px);
+    }100%{
+        transform: translateY(20px);
+    }
+}
+.underlin1{
+    margin-top: -120px;
+    height: 320px;
+    width: 450px;
+    animation: underlineOfText 8s infinite linear forwards alternate;
+}
+@keyframes underlineOfText {
+    0%{
+transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+.headArticale{margin-top: -100px;}
+.messiCard{
+    height: 200px;
+    width: 200px;
+}
+.footballImage{
+    margin-top: 50px;   
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+.card{
+margin-top: 12px;
+margin-bottom: 12px;
+height: 250px;
+transform: scale(0.9);
+} 
+.card:hover{
+    box-shadow: 0 0 0 3px rgba(60, 4, 190, 0.5) , 0 0 0 5px rgba(4, 190, 156, 0.5);
+    transform: scale(1.1) rotateX(30deg) rotateY(10deg) ;
+    transition: box-shadow 1s , transform 1s;
+    cursor: pointer;
+
+}
+.card-img-top{height: 220px;}
+.selectUnderline{ margin-top: -138px;}
+.selectUnderline2{
+    margin-top: -208px;   
+    margin: 12px;
+}
+#orderList{ margin-top: -128px;}
+.budget-calculation{margin-top: -105px;}
+
+.aboutDiv{
+    padding: 12px;
+    border-radius: 12px;
+    margin: 10px 12px;
+    color: white;
+    height: 320px;
+}
+.card-img-top{
+    height: 250px;
+}
+
+.teamCarousel{
+    height: 452px;
+    border-radius: 15px;
+}
